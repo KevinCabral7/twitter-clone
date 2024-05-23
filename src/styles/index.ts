@@ -10,14 +10,20 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'ChirpBold';
     src: url(${Bold}) format('truetype');
   }
+  @font-face {
+    font-family: 'ChirpRegular';
+    src: url(${Regular}) format('truetype');
+    weight: 
+  }
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
     background-color:#000;
     font-family: ChirpRegular;
-    color: #fff
-}
+    color: #fff;
+  }
+
 `;
 
 export default GlobalStyle;
