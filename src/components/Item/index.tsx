@@ -1,13 +1,16 @@
+import { ReactElement } from "react";
+import * as S from "./style";
+
 type Props = {
-  image: string;
+  children: ReactElement;
   title: string;
 };
-const Item = ({ image, title }: Props) => {
+const Item = ({ children, title }: Props) => {
   return (
-    <div>
-      <img src={image} alt="" />
-      <h3>{title}</h3>
-    </div>
+    <S.ItemContainer>
+      {children}
+      <S.ItemTitle>{title}</S.ItemTitle>
+    </S.ItemContainer>
   );
 };
 

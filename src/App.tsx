@@ -1,11 +1,11 @@
-import React from "react";
 import GlobalStyle from "./styles";
+import Nav from "./container/Nav";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>aaaaaaaaaaaaaaa</h1>
+      <Nav />
     </>
   );
 }
