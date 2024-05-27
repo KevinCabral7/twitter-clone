@@ -7,6 +7,7 @@ export const ProfileContainer = styled.div`
     fill: #fff;
     width: 32px;
     margin-right: 12px;
+    display: block;
   }
 `;
 
