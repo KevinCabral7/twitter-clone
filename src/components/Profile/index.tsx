@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import * as S from "./style";
 
 type Props = {
-  children: ReactElement;
+  children?: ReactElement;
   name: string;
   id: string;
 };

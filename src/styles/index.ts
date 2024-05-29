@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import Bold from "../fonts/ChirpBold.ttf";
 import Regular from "../fonts/ChirpRegular.ttf";
+import Medium from "../fonts/ChirpMedium.ttf";
 const GlobalStyle = createGlobalStyle`
 @font-face {
     font-family: 'ChirpRegular';
@@ -11,9 +12,8 @@ const GlobalStyle = createGlobalStyle`
     src: url(${Bold}) format('truetype');
   }
   @font-face {
-    font-family: 'ChirpRegular';
-    src: url(${Regular}) format('truetype');
-    weight: 
+    font-family: 'ChirpMedium';
+    src: url(${Medium}) format('truetype');
   }
 *{
     margin:0;
@@ -22,6 +22,11 @@ const GlobalStyle = createGlobalStyle`
     background-color:#000;
     font-family: ChirpRegular;
     color: #fff;
+    svg{
+        fill: #fff;
+        width: 25px;
+        margin-left: 22px;
+    }
   }
 
 `;
