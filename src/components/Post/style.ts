@@ -2,11 +2,11 @@ import styled from "styled-components";
 import { ProfileContainer } from "../Profile/style";
 
 export const PostContainer = styled.div`
-  width: 50vw;
+  width: 51.8vw;
   margin: 0 auto;
   border: 1px solid rgb(47, 51, 54);
   > div {
-    width: 80%;
+    width: 43vw;
   }
   ${ProfileContainer} {
     div {
@@ -19,6 +19,7 @@ export const PostContainer = styled.div`
       }
     }
     svg {
+      margin-top: 8px;
       display: block;
       height: 100%;
     }
@@ -34,5 +35,10 @@ export const PostContent = styled.div`
 `;
 export const PostInterectsContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
+  svg {
+    fill: rgb(113, 118, 123);
+    width: 18px;
+  }
 `;

@@ -3,12 +3,13 @@ import styled from "styled-components";
 export const ItemContainer = styled.div`
   display: flex;
 
-  margin: 28px 0;
+  margin: 24px 0;
 `;
 export const ItemTitle = styled.h3`
   font-family: ChirpRegular;
+  font-weight: 400;
   font-size: 20px;
-  margin-left: 28px;
+  margin-left: 20px;
 `;
 
 export const ItemImg = styled.img``;
