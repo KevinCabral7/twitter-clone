@@ -28,7 +28,6 @@ const GlobalStyle = createGlobalStyle`
         margin-left: 22px;
     }
   }
-
 `;
 
 export default GlobalStyle;

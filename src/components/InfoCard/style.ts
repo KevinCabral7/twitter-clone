@@ -17,5 +17,6 @@ export const InfoContainer = styled.div`
   h3,
   h4 {
     margin-top: 4px;
+    margin-left: 16px;
   }
 `;
